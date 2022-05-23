@@ -1,0 +1,28 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node downloadImage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "languagedetect": "^2.0.0",
+    "path": "^0.12.7",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "puppeteer-table-scraper": "^1.0.4",
+    "request": "^2.88.2",
+    "translate": "^1.4.1",
+    "user-agents": "^1.0.846",
+    "uuid": "^8.3.2",
+    "xlsx": "^0.17.3"
+  }
+}
